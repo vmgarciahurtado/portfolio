@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "timeline": "Timeline",
+    "work": "Projects",
+    "techStack": "Tech Stack",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Víctor García",
+    "subtitle": "Full Stack Developer",
+    "cta": "View my work"
+  }
+}

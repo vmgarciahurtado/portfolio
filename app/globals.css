@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
 :root {
+  /* Colores base */
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* Colores personalizados - Modo Light */
+  --primary: #007AFF;
+  --surface: #F5F5F7;
+  --text-secondary: #6E6E73;
+  --border: #D2D2D7;
 }
 
 @theme inline {
@@ -10,17 +17,105 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Custom colors */
+  --color-primary: var(--primary);
+  --color-surface: var(--surface);
+  --color-text-secondary: var(--text-secondary);
+  --color-border: var(--border);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
+    
+    /* Colores personalizados - Modo Dark */
+    --primary: #0A84FF;
+    --surface: #1C1C1E;
+    --text-secondary: #98989D;
+    --border: #38383A;
   }
+}
+
+/* Dark mode manual class */
+.dark {
+  --background: #000000;
+  --foreground: #ededed;
+  --primary: #0A84FF;
+  --surface: #1C1C1E;
+  --text-secondary: #98989D;
+  --border: #38383A;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar personalizado estilo Apple */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground);
+}
+
+/* Utilidades personalizadas */
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-apple {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dark .shadow-apple {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.container-custom {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
