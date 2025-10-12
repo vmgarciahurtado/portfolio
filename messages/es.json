@@ -4,12 +4,26 @@
     "work": "Proyectos",
     "techStack": "Tech Stack",
     "blog": "Blog",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "bookshelf": "Biblioteca"
   },
   "hero": {
     "greeting": "Hola, soy",
     "title": "Víctor García",
-    "subtitle": "Desarrollador Full Stack",
-    "cta": "Ver mi trabajo"
+    "subtitle": "Ingeniero de Software",
+    "cta": "Conoce más sobre mí"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy un Desarrollador Full Stack apasionado con experiencia en la construcción de aplicaciones web modernas. Me encanta crear soluciones elegantes a problemas complejos.",
+    "paragraph2": "Con una sólida base en tecnologías frontend y backend, me especializo en crear experiencias de usuario fluidas y aplicaciones robustas del lado del servidor.",
+    "paragraph3": "Cuando no estoy programando, puedes encontrarme leyendo libros técnicos, contribuyendo a código abierto o explorando nuevas tecnologías.",
+    "cta": "Ver mi trabajo",
+    "downloadCV": "Descargar CV"
+  },
+  "bookshelf": {
+    "title": "Biblioteca",
+    "subtitle": "Aquí están algunos de mis libros favoritos que he leído o tengo en mi estantería.",
+    "clickToView": "Click para ver"
   }
 }

@@ -4,12 +4,26 @@
     "work": "Projects",
     "techStack": "Tech Stack",
     "blog": "Blog",
-    "about": "About"
+    "about": "About",
+    "bookshelf": "Bookshelf"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "title": "Víctor García",
-    "subtitle": "Full Stack Developer",
-    "cta": "View my work"
+    "subtitle": "Software Engineer",
+    "cta": "Learn more about me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm a passionate Full Stack Developer with experience in building modern web applications. I love creating elegant solutions to complex problems.",
+    "paragraph2": "With a strong foundation in both frontend and backend technologies, I specialize in creating seamless user experiences and robust server-side applications.",
+    "paragraph3": "When I'm not coding, you can find me reading technical books, contributing to open source, or exploring new technologies.",
+    "cta": "View my work",
+    "downloadCV": "Download CV"
+  },
+  "bookshelf": {
+    "title": "Bookshelf",
+    "subtitle": "Here are some of my favorite books I've read or have on my bookshelf.",
+    "clickToView": "Click to view"
   }
 }

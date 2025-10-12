@@ -7,11 +7,12 @@ import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 
 const navItems = [
-  { id: 'timeline', href: '#timeline' },
+  { id: 'about', href: '#about' },
   { id: 'work', href: '#work' },
   { id: 'techStack', href: '#tech-stack' },
+  { id: 'timeline', href: '#timeline' },
   { id: 'blog', href: '#blog' },
-  { id: 'about', href: '#about' },
+  { id: 'bookshelf', href: '#bookshelf' },
 ];
 
 export function Navbar() {
@@ -41,7 +42,7 @@ export function Navbar() {
       }`}
       style={{
         backdropFilter: isScrolled ? 'blur(20px)' : 'none',
-        backgroundColor: isScrolled ? 'rgba(255, 255, 255, 0.8)' : 'transparent',
+        backgroundColor: isScrolled ? 'var(--nav-bg)' : 'transparent',
       }}
     >
       <div className="container-custom">

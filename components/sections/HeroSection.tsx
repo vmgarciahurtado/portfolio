@@ -36,7 +36,7 @@ export function HeroSection() {
       y: 0,
       transition: {
         duration: 0.8,
-        ease: [0.22, 1, 0.36, 1],
+        ease: [0.22, 1, 0.36, 1] as const,
       },
     },
   };
@@ -47,20 +47,22 @@ export function HeroSection() {
       id="hero"
       className="relative h-screen w-full overflow-hidden"
     >
+      {/* Fondo con gradiente de grises */}
       <motion.div
         style={{
           y: imageY,
           scale: imageScale,
           opacity: imageOpacity,
         }}
-        className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600"
+        className="absolute inset-0 w-full h-full bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900"
       >
         <div 
           className="absolute inset-0 z-10"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}
         />
       </motion.div>
 
+      {/* Contenedor principal centrado */}
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
         className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6"
@@ -93,7 +95,7 @@ export function HeroSection() {
 
           <motion.div variants={itemVariants}>
             <motion.a
-              href="#work"
+              href="#about"
               className="inline-block mt-8 px-8 py-4 text-lg font-medium
                        text-white rounded-full glass transition-all duration-300"
               whileHover={{ scale: 1.05 }}

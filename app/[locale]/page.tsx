@@ -1,5 +1,8 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { AboutSection } from '@/components/sections/AboutSection';
+import { BookshelfSection } from '@/components/sections/BookshelfSection';
+import { SocialLinks } from '@/components/ui/SocialLinks';
 
 export default function Home() {
   return (
@@ -8,16 +11,8 @@ export default function Home() {
       <main>
         <HeroSection />
         
-        <section id="timeline" className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
-              Timeline
-            </h2>
-            <p style={{ color: 'var(--text-secondary)' }}>
-              Componente en desarrollo...
-            </p>
-          </div>
-        </section>
+        {/* About en posición #2 */}
+        <AboutSection />
 
         <section 
           id="work" 
@@ -46,10 +41,21 @@ export default function Home() {
         </section>
 
         <section 
-          id="blog" 
+          id="timeline" 
           className="min-h-screen flex items-center justify-center"
           style={{ backgroundColor: 'var(--surface)' }}
         >
+          <div className="text-center">
+            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
+              Timeline
+            </h2>
+            <p style={{ color: 'var(--text-secondary)' }}>
+              Componente en desarrollo...
+            </p>
+          </div>
+        </section>
+
+        <section id="blog" className="min-h-screen flex items-center justify-center">
           <div className="text-center">
             <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
               Blog
@@ -60,28 +66,22 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
-              About
-            </h2>
-            <p style={{ color: 'var(--text-secondary)' }}>
-              Componente en desarrollo...
-            </p>
-          </div>
-        </section>
+        <BookshelfSection />
       </main>
 
       <footer 
-        className="py-8 text-center"
+        className="py-12 text-center"
         style={{ 
           backgroundColor: 'var(--surface)',
           borderTop: '1px solid var(--border)'
         }}
       >
-        <p style={{ color: 'var(--text-secondary)' }}>
-          © 2025 Portfolio. Todos los derechos reservados.
-        </p>
+        <div className="container-custom max-w-6xl mx-auto space-y-6">
+          <SocialLinks className="justify-center" iconSize={24} />
+          <p style={{ color: 'var(--text-secondary)' }}>
+            © 2025 Portfolio. Todos los derechos reservados.
+          </p>
+        </div>
       </footer>
     </>
   );
