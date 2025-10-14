@@ -21,6 +21,18 @@
     "cta": "Ver mi trabajo",
     "downloadCV": "Descargar CV"
   },
+  "work": {
+    "title": "Mis Proyectos",
+    "subtitle": "Una selección de proyectos en los que he trabajado",
+    "viewDetails": "Ver Detalles",
+    "public": "Público",
+    "private": "Privado",
+    "technologies": "Tecnologías",
+    "viewGithub": "Ver en GitHub",
+    "watchDemo": "Ver Demo",
+    "visitSite": "Visitar Sitio",
+    "noProjects": "No hay proyectos disponibles aún"
+  },
   "bookshelf": {
     "title": "Biblioteca",
     "subtitle": "Aquí están algunos de mis libros favoritos que he leído o tengo en mi estantería.",

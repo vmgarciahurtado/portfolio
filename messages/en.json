@@ -21,6 +21,18 @@
     "cta": "View my work",
     "downloadCV": "Download CV"
   },
+  "work": {
+    "title": "My Work",
+    "subtitle": "A selection of projects I've worked on",
+    "viewDetails": "View Details",
+    "public": "Public",
+    "private": "Private",
+    "technologies": "Technologies",
+    "viewGithub": "View on GitHub",
+    "watchDemo": "Watch Demo",
+    "visitSite": "Visit Site",
+    "noProjects": "No projects available yet"
+  },
   "bookshelf": {
     "title": "Bookshelf",
     "subtitle": "Here are some of my favorite books I've read or have on my bookshelf.",

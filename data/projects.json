@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Sales Force",
+    "shortDescription": "Modern e-commerce platform with real-time inventory management",
+    "fullDescription": "A full-stack e-commerce solution built with Next.js and Node.js. Features include real-time inventory tracking, secure payment processing, admin dashboard, and responsive design. Implemented advanced caching strategies and optimized database queries for high performance.",
+    "technologies": ["Flutter", "SQLite", "Firebase", "Shorebird", "Patrol"],
+    "coverImage": "/images/works/sales_force/cover.png",
+    "gallery": [
+      "/images/works/sales_force/cover.png",
+      "/images/works/sales_force/me.jpg",
+      "/images/works/sales_force/victor.jpg"
+    ],
+    "isPublic": false
+  },
+  {
+    "id": "2",
+    "title": "Stac Business",
+    "shortDescription": "Analytics dashboard for enterprise data visualization",
+    "fullDescription": "Enterprise-grade analytics dashboard with advanced data visualization, real-time updates, and custom reporting features. Built for scalability and performance with a focus on user experience.",
+    "technologies": ["Flutter", "React", "Server Driven UI", "Firebase"],
+    "coverImage": "/images/works/project-example-2/cover.jpg",
+    "gallery": [
+        "/images/works/project-example-1/screenshot-1.jpg",
+        "/images/works/project-example-1/screenshot-2.jpg"
+      ],
+    "isPublic": false
+  },
+  {
+    "id": "project-example-3",
+    "title": "Mobile Fitness App",
+    "shortDescription": "Cross-platform fitness tracking application",
+    "fullDescription": "A comprehensive fitness tracking application with workout plans, nutrition tracking, and social features. Includes real-time synchronization across devices and integrates with popular fitness wearables.",
+    "technologies": ["React Native", "Firebase", "Redux", "Node.js"],
+    "coverImage": "/images/works/project-example-3/cover.jpg",
+    "gallery": ["/images/works/project-example-3/screenshot-1.jpg"],
+    "isPublic": true,
+    "githubUrl": "https://github.com/yourusername/fitness-app",
+    "youtubeUrl": "https://youtube.com/watch?v=example"
+  }
+]
+
