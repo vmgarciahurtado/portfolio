@@ -2,6 +2,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { WorkSection } from '@/components/sections/WorkSection';
+import { TechStackSection } from '@/components/sections/TechStackSection';
 import { BookshelfSection } from '@/components/sections/BookshelfSection';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 
@@ -18,16 +19,8 @@ export default function Home() {
         {/* Work/Projects Section */}
         <WorkSection />
 
-        <section id="tech-stack" className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
-              Tech Stack
-            </h2>
-            <p style={{ color: 'var(--text-secondary)' }}>
-              Componente en desarrollo...
-            </p>
-          </div>
-        </section>
+        {/* Tech Stack Section */}
+        <TechStackSection />
 
         <section 
           id="timeline" 

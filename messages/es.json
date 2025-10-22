@@ -37,5 +37,9 @@
     "title": "Biblioteca",
     "subtitle": "Aquí están algunos de mis libros favoritos que he leído o tengo en mi estantería.",
     "clickToView": "Click para ver"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "subtitle": "Tecnologías y herramientas que uso para construir aplicaciones increíbles"
   }
 }

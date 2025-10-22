@@ -37,5 +37,9 @@
     "title": "Bookshelf",
     "subtitle": "Here are some of my favorite books I've read or have on my bookshelf.",
     "clickToView": "Click to view"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "subtitle": "Technologies and tools I work with to build amazing applications"
   }
 }
