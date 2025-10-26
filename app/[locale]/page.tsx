@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { WorkSection } from '@/components/sections/WorkSection';
 import { TechStackSection } from '@/components/sections/TechStackSection';
+import TimelineSection from '@/components/sections/TimelineSection';
 import { BookshelfSection } from '@/components/sections/BookshelfSection';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 
@@ -22,20 +23,8 @@ export default function Home() {
         {/* Tech Stack Section */}
         <TechStackSection />
 
-        <section 
-          id="timeline" 
-          className="min-h-screen flex items-center justify-center"
-          style={{ backgroundColor: 'var(--surface)' }}
-        >
-          <div className="text-center">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
-              Timeline
-            </h2>
-            <p style={{ color: 'var(--text-secondary)' }}>
-              Componente en desarrollo...
-            </p>
-          </div>
-        </section>
+        {/* Timeline Section */}
+        <TimelineSection />
 
         <section id="blog" className="min-h-screen flex items-center justify-center">
           <div className="text-center">

@@ -41,5 +41,13 @@
   "techStack": {
     "title": "Tech Stack",
     "subtitle": "Technologies and tools I work with to build amazing applications"
+  },
+  "timeline": {
+    "title": "My Journey",
+    "subtitle": "Follow my professional and educational roadmap",
+    "work": "Work Experience",
+    "education": "Education",
+    "present": "Present",
+    "youAreHere": "You are here"
   }
 }

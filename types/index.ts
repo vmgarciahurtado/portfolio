@@ -11,3 +11,13 @@ export interface Project {
   youtubeUrl?: string;
   liveUrl?: string;
 }
+
+export interface TimelineItem {
+  id: string;
+  type: 'work' | 'education';
+  title: string;
+  organization: string;
+  date: string;
+  description: string;
+  icon: string;
+}
