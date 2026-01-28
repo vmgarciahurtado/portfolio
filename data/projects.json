@@ -1,42 +1,59 @@
 [
   {
-    "id": "1",
-    "title": "Sales Force",
-    "shortDescription": "Modern e-commerce platform with real-time inventory management",
-    "fullDescription": "A full-stack e-commerce solution built with Next.js and Node.js. Features include real-time inventory tracking, secure payment processing, admin dashboard, and responsive design. Implemented advanced caching strategies and optimized database queries for high performance.",
-    "technologies": ["Flutter", "SQLite", "Firebase", "Shorebird", "Patrol"],
-    "coverImage": "/images/works/sales_force/cover.png",
+    "id": "sifc",
+    "title": "SIFC - Sistema Integrado de Figuras Comerciales",
+    "shortDescription": "Transición de múltiples aplicaciones nativas a una solución Flutter unificada para Nutresa",
+    "fullDescription": "SIFC (Sistema Integrado de Figuras Comerciales) representa una transformación tecnológica importante para Nutresa. El proyecto consistió en la migración y consolidación de varias aplicaciones nativas independientes hacia una única aplicación Flutter. Las aplicaciones originales incluían: 'Fuerza de Ventas' para gestión comercial, 'Catálogo' para visualización de productos, 'Grandes Cadenas' para gestión de retail, 'VIC - Vista Integral del Cliente' para análisis de clientes, y 'Entregadores' para logística de entrega. Esta unificación permitió mejorar la experiencia de usuario, reducir costos de mantenimiento y acelerar el tiempo de desarrollo de nuevas funcionalidades.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "SQLite",
+      "Firebase",
+      "REST APIs",
+      "Shorebird"
+    ],
+    "coverImage": "/images/works/sifc/sifc_cover.png",
     "gallery": [
-      "/images/works/sales_force/cover.png",
-      "/images/works/sales_force/me.jpg",
-      "/images/works/sales_force/victor.jpg"
+      "/images/works/sifc/sifc_cover.png"
     ],
     "isPublic": false
   },
   {
-    "id": "2",
-    "title": "Stac Business",
-    "shortDescription": "Analytics dashboard for enterprise data visualization",
-    "fullDescription": "Enterprise-grade analytics dashboard with advanced data visualization, real-time updates, and custom reporting features. Built for scalability and performance with a focus on user experience.",
-    "technologies": ["Flutter", "React", "Server Driven UI", "Firebase"],
-    "coverImage": "/images/works/project-example-2/cover.jpg",
+    "id": "merkato",
+    "title": "Merkato",
+    "shortDescription": "App móvil para comparar precios y optimizar listas de compras en Colombia",
+    "fullDescription": "Merkato es una aplicación móvil (iOS/Android) desarrollada con Flutter que permite comparar precios de productos entre múltiples tiendas físicas en Colombia y crear listas de compras optimizadas para maximizar el ahorro. El propósito principal es resolver la fragmentación de información de precios: los consumidores gastan 15-25% más en mercado por no poder comparar precios entre tiendas. Merkato centraliza esta información mediante una API de scraping y la presenta de forma clara, permitiendo a los usuarios tomar decisiones informadas y ahorrar significativamente en sus compras del hogar.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "Web Scraping",
+      "Firebase",
+      "SQLite"
+    ],
+    "coverImage": "/images/works/merkato/merkato_cover.png",
     "gallery": [
-        "/images/works/project-example-1/screenshot-1.jpg",
-        "/images/works/project-example-1/screenshot-2.jpg"
-      ],
+      "/images/works/merkato/merkato_cover.png"
+    ],
     "isPublic": false
   },
   {
-    "id": "project-example-3",
-    "title": "Mobile Fitness App",
-    "shortDescription": "Cross-platform fitness tracking application",
-    "fullDescription": "A comprehensive fitness tracking application with workout plans, nutrition tracking, and social features. Includes real-time synchronization across devices and integrates with popular fitness wearables.",
-    "technologies": ["React Native", "Firebase", "Redux", "Node.js"],
-    "coverImage": "/images/works/project-example-3/cover.jpg",
-    "gallery": ["/images/works/project-example-3/screenshot-1.jpg"],
-    "isPublic": true,
-    "githubUrl": "https://github.com/yourusername/fitness-app",
-    "youtubeUrl": "https://youtube.com/watch?v=example"
+    "id": "b2b",
+    "title": "B2B Commerce Platform",
+    "shortDescription": "Plataforma B2B móvil y web para gestión de pedidos empresariales",
+    "fullDescription": "Aplicación B2B desarrollada con Flutter para móvil y web que permite a clientes empresariales gestionar sus operaciones comerciales de manera integral. Las funcionalidades principales incluyen: Autenticación con Keycloak y gestión de sesiones seguras; Gestión de múltiples tiendas asignadas con validación de carrito; Catálogo de productos con búsqueda, filtrado por categorías, subcategorías y marcas; Carrito de compras con actualización de cantidades, validación de cambios y agrupación por proveedor; Visualización e historial de órdenes; Perfil de usuario con información personal y empresarial; Sistema de soporte con acciones rápidas; e información de la app incluyendo políticas, términos y versión.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Keycloak",
+      "REST APIs",
+      "Firebase",
+      "BLoC"
+    ],
+    "coverImage": "/images/works/b2b/b2b_cover.png",
+    "gallery": [
+      "/images/works/b2b/b2b_cover.png"
+    ],
+    "isPublic": false
   }
 ]
-
