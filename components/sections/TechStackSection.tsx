@@ -238,7 +238,7 @@ export function TechStackSection() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '6+', label: 'Categories' },
+              { number: '5+', label: 'Categories' },
               { number: '10+', label: 'Technologies' },
               { number: '5+', label: 'Years Experience' },
               { number: '∞', label: 'Learning' }
