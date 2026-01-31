@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Construyendo Experiencias de Realidad Aumentada con Flutter + Unity",
+        "titleEn": "Building Augmented Reality Experiences with Flutter + Unity",
+        "description": "Solución para dispositivos de gama baja y alta usando Flutter y Unity para crear experiencias inmersivas de realidad aumentada.",
+        "descriptionEn": "Solution for low and high-end devices using Flutter and Unity to create immersive augmented reality experiences.",
+        "url": "https://medium.com/@vmgarciahurtado/construyendo-experiencias-de-realidad-aumentada-con-flutter-unity-soluci%C3%B3n-para-dispositivos-da7eb8bbe3b5",
+        "date": "2024",
+        "readTime": "5 min",
+        "tags": [
+            "Flutter",
+            "Unity",
+            "AR",
+            "Mobile Development"
+        ],
+        "image": "/images/blog/blog1.png",
+        "platform": "Medium"
+    }
+]

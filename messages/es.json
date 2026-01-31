@@ -15,9 +15,9 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy un Desarrollador Full Stack apasionado con experiencia en la construcción de aplicaciones web modernas. Me encanta crear soluciones elegantes a problemas complejos.",
-    "paragraph2": "Con una sólida base en tecnologías frontend y backend, me especializo en crear experiencias de usuario fluidas y aplicaciones robustas del lado del servidor.",
-    "paragraph3": "Cuando no estoy programando, puedes encontrarme leyendo libros técnicos, contribuyendo a código abierto o explorando nuevas tecnologías.",
+    "paragraph1": "Soy un Desarrollador Mobile con más de 6 años de experiencia construyendo aplicaciones de alto rendimiento utilizando Flutter, Kotlin y Swift. Me especializo en crear soluciones escalables y centradas en el usuario, siguiendo las mejores prácticas de desarrollo.",
+    "paragraph2": "Tengo una trayectoria comprobada en liderazgo de equipos e implementación de prácticas DevSecOps para entregar software de calidad. He liderado el desarrollo de más de 4 aplicaciones multiplataforma (Android, iOS, Web) y creado herramientas innovadoras como plataformas Server-Driven UI y librerías para desarrollo guiado por IA.",
+    "paragraph3": "Soy creador de la plataforma Server-Driven UI basada en STAC para widgets dinámicos y de la librería NPM cw-method-rdd (Rules Driven Development), un método que establece lineamientos de desarrollo incluyendo arquitectura limpia, principios SOLID, estrategias de testing y buenas prácticas para el desarrollo guiado por IA.",
     "cta": "Ver mi trabajo",
     "downloadCV": "Descargar CV"
   },
@@ -40,7 +40,7 @@
   },
   "techStack": {
     "title": "Tech Stack",
-    "subtitle": "Tecnologías y herramientas que uso para construir aplicaciones increíbles"
+    "subtitle": "Tecnologías y herramientas con las que he trabajado"
   },
   "timeline": {
     "title": "Mi Trayectoria",
@@ -49,5 +49,12 @@
     "education": "Educación",
     "present": "Presente",
     "youAreHere": "Estás aquí"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Artículos y reflexiones sobre desarrollo de software",
+    "readArticle": "Leer Artículo",
+    "viewMore": "Ver más en Medium",
+    "noPosts": "No hay artículos disponibles aún"
   }
 }

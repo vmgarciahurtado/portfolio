@@ -15,9 +15,9 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "I'm a passionate Full Stack Developer with experience in building modern web applications. I love creating elegant solutions to complex problems.",
-    "paragraph2": "With a strong foundation in both frontend and backend technologies, I specialize in creating seamless user experiences and robust server-side applications.",
-    "paragraph3": "When I'm not coding, you can find me reading technical books, contributing to open source, or exploring new technologies.",
+    "paragraph1": "I'm a Mobile Developer with over 6 years of experience building high-performance applications using Flutter, Kotlin, and Swift. I specialize in creating scalable, user-centered solutions, following best development practices.",
+    "paragraph2": "I have a proven track record in team leadership and implementing DevSecOps practices to deliver quality software. I've led the development of 4+ cross-platform applications (Android, iOS, Web) and created innovative tools such as Server-Driven UI platforms and libraries for AI-driven development.",
+    "paragraph3": "I'm the creator of the STAC-based Server-Driven UI platform for dynamic widgets and the NPM library cw-method-rdd (Rules Driven Development), a method that establishes development guidelines including clean architecture, SOLID principles, testing strategies, and best practices for AI-driven development.",
     "cta": "View my work",
     "downloadCV": "Download CV"
   },
@@ -40,7 +40,7 @@
   },
   "techStack": {
     "title": "Tech Stack",
-    "subtitle": "Technologies and tools I work with to build amazing applications"
+    "subtitle": "Technologies and tools I have worked with"
   },
   "timeline": {
     "title": "My Journey",
@@ -49,5 +49,12 @@
     "education": "Education",
     "present": "Present",
     "youAreHere": "You are here"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles and thoughts about software development",
+    "readArticle": "Read Article",
+    "viewMore": "View more on Medium",
+    "noPosts": "No articles available yet"
   }
 }

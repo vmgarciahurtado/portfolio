@@ -4,6 +4,7 @@ import { AboutSection } from '@/components/sections/AboutSection';
 import { WorkSection } from '@/components/sections/WorkSection';
 import { TechStackSection } from '@/components/sections/TechStackSection';
 import TimelineSection from '@/components/sections/TimelineSection';
+import { BlogSection } from '@/components/sections/BlogSection';
 import { BookshelfSection } from '@/components/sections/BookshelfSection';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 
@@ -13,7 +14,7 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        
+
         {/* About en posición #2 */}
         <AboutSection />
 
@@ -26,23 +27,15 @@ export default function Home() {
         {/* Timeline Section */}
         <TimelineSection />
 
-        <section id="blog" className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
-              Blog
-            </h2>
-            <p style={{ color: 'var(--text-secondary)' }}>
-              Componente en desarrollo...
-            </p>
-          </div>
-        </section>
+        {/* Blog Section */}
+        <BlogSection />
 
         <BookshelfSection />
       </main>
 
-      <footer 
+      <footer
         className="py-12 text-center"
-        style={{ 
+        style={{
           backgroundColor: 'var(--surface)',
           borderTop: '1px solid var(--border)'
         }}

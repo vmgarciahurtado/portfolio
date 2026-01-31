@@ -204,8 +204,9 @@ export function AboutSection() {
               </motion.a>
 
               <motion.a
-                href="/cv.pdf"
-                download
+                href="https://drive.google.com/file/d/1RaRgJmkTyfFhjdLbBRKDf3v9NahvVD0J/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-8 py-4 rounded-full font-medium border transition-all duration-300"
                 style={{
                   backgroundColor: 'transparent',

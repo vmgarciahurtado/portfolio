@@ -1,49 +1,77 @@
 [
   {
     "id": "1",
-    "type": "education",
-    "title": "Bachelor's Degree in Computer Science",
-    "organization": "Universidad Nacional",
-    "date": "2015 - 2019",
-    "description": "Focused on software engineering, algorithms, and data structures. Graduated with honors and completed final project on mobile application development.",
-    "icon": "graduation"
+    "type": "work",
+    "title": "Ingeniero de Desarrollo",
+    "organization": "Celuweb",
+    "date": "2020 - Presente",
+    "description": "Desarrollo de aplicaciones móviles de alto rendimiento utilizando Flutter, Kotlin y Swift. Liderazgo de equipos e implementación de prácticas DevSecOps. Creación de plataformas Server-Driven UI y herramientas para desarrollo guiado por IA.",
+    "icon": "briefcase"
   },
   {
     "id": "2",
-    "type": "work",
-    "title": "Junior Software Developer",
-    "organization": "TechStart Solutions",
-    "date": "2019 - 2021",
-    "description": "Developed web applications using React and Node.js. Collaborated with senior developers on client projects and learned agile methodologies.",
-    "icon": "briefcase"
+    "type": "education",
+    "title": "Ingeniería de Sistemas",
+    "organization": "Universidad UNAD",
+    "location": "Dosquebradas, Risaralda",
+    "date": "2020 - 2024",
+    "description": "Formación profesional en ingeniería de sistemas con enfoque en desarrollo de software, arquitectura de sistemas y tecnologías de la información.",
+    "icon": "graduation"
   },
   {
     "id": "3",
-    "type": "work",
-    "title": "Full Stack Developer",
-    "organization": "Digital Innovations Inc",
-    "date": "2021 - 2023",
-    "description": "Led development of mobile applications using Flutter and managed backend services. Mentored junior developers and improved system performance by 40%.",
-    "icon": "briefcase"
+    "type": "education",
+    "title": "Certificación LPI-E",
+    "organization": "Linux Professional Institute",
+    "location": "Ontario, Canada",
+    "date": "2023",
+    "description": "Certificación profesional en Linux que valida conocimientos en administración de sistemas Linux y herramientas de línea de comandos.",
+    "icon": "graduation"
   },
   {
     "id": "4",
     "type": "education",
-    "title": "Mobile Development Certification",
-    "organization": "Google Developer Academy",
-    "date": "2022",
-    "description": "Specialized certification in Flutter and mobile app development. Completed advanced courses in state management and performance optimization.",
+    "title": "Certificación NDG-Linux",
+    "organization": "Cisco Network Academy",
+    "location": "San Jose, California",
+    "date": "2023",
+    "description": "Certificación en fundamentos de Linux a través de Cisco Networking Academy, cubriendo administración del sistema y conceptos de redes.",
     "icon": "graduation"
   },
   {
     "id": "5",
     "type": "work",
-    "title": "Senior Software Engineer",
-    "organization": "CloudTech Solutions",
-    "date": "2023 - Present",
-    "description": "Leading cross-functional teams in developing scalable cloud applications. Architecting microservices and implementing DevOps practices with AWS and Docker.",
+    "title": "Desarrollador Móvil",
+    "organization": "Sumset",
+    "date": "2018",
+    "description": "Desarrollo de aplicaciones móviles, adquiriendo experiencia en tecnologías de desarrollo móvil y metodologías ágiles.",
     "icon": "briefcase"
+  },
+  {
+    "id": "6",
+    "type": "work",
+    "title": "Desarrollador",
+    "organization": "SENA",
+    "date": "2018",
+    "description": "Experiencia laboral en desarrollo de software aplicando los conocimientos adquiridos en la formación técnica.",
+    "icon": "briefcase"
+  },
+  {
+    "id": "7",
+    "type": "education",
+    "title": "Análisis y Desarrollo de Sistemas de Información",
+    "organization": "SENA",
+    "date": "2017",
+    "description": "Formación tecnológica en análisis, diseño y desarrollo de sistemas de información, con énfasis en programación y bases de datos.",
+    "icon": "graduation"
+  },
+  {
+    "id": "8",
+    "type": "education",
+    "title": "Técnico en Desarrollo de Software",
+    "organization": "SENA",
+    "date": "2015",
+    "description": "Formación técnica en desarrollo de software, aprendiendo fundamentos de programación, lógica y desarrollo de aplicaciones.",
+    "icon": "graduation"
   }
 ]
-
-

@@ -55,5 +55,47 @@
       "/images/works/b2b/b2b_cover.png"
     ],
     "isPublic": false
+  },
+  {
+    "id": "dynamic-components",
+    "title": "Dynamic Components - Server-Driven UI Platform",
+    "shortDescription": "Plataforma innovadora de Server-Driven UI basada en STAC para renderizado dinámico de widgets",
+    "fullDescription": "Dynamic Components es una plataforma revolucionaria de Server-Driven UI (SDUI) basada en STAC (Server-driven Template and Component) que permite la creación y actualización de interfaces de usuario de forma dinámica sin necesidad de desplegar nuevas versiones de la aplicación. Esta solución permite a los equipos de producto y diseño modificar la interfaz de usuario, agregar nuevas funcionalidades y realizar pruebas A/B directamente desde el servidor. El sistema interpreta configuraciones JSON que definen la estructura, estilo y comportamiento de los widgets, permitiendo una flexibilidad sin precedentes en el desarrollo de aplicaciones móviles. Esto reduce significativamente el tiempo de desarrollo, elimina la dependencia de los ciclos de release de las tiendas de aplicaciones y permite iteraciones más rápidas basadas en feedback de usuarios.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "STAC",
+      "JSON Schema",
+      "REST APIs",
+      "Firebase",
+      "Real-time Updates"
+    ],
+    "coverImage": "/images/works/dynamic-components/dynamic_components_cover.png",
+    "gallery": [
+      "/images/works/dynamic-components/dynamic_components_cover.png"
+    ],
+    "isPublic": false
+  },
+  {
+    "id": "rdd",
+    "title": "RDD - Rules Driven Development",
+    "shortDescription": "Librería NPM que establece lineamientos de desarrollo con arquitectura limpia y desarrollo guiado por IA",
+    "fullDescription": "cw-method-rdd (Rules Driven Development) es una librería NPM innovadora que establece un conjunto completo de lineamientos y mejores prácticas para el desarrollo de software moderno. Este método integra arquitectura limpia (Clean Architecture), principios SOLID, estrategias de testing comprehensivas y buenas prácticas específicas para el desarrollo guiado por IA. RDD proporciona un framework estructurado que ayuda a los equipos de desarrollo a mantener consistencia en el código, mejorar la mantenibilidad y escalabilidad de las aplicaciones, y aprovechar al máximo las capacidades de las herramientas de IA en el proceso de desarrollo. La librería incluye templates, linters personalizados, generadores de código y documentación detallada que guían a los desarrolladores en la implementación de patrones de diseño probados y la adopción de prácticas que facilitan la colaboración entre humanos e IA en el desarrollo de software.",
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "NPM",
+      "Clean Architecture",
+      "SOLID Principles",
+      "Testing Strategies",
+      "AI-Driven Development",
+      "Code Generation"
+    ],
+    "coverImage": "/images/works/rdd/rdd_cover.png",
+    "gallery": [
+      "/images/works/rdd/rdd_cover.png"
+    ],
+    "isPublic": true,
+    "githubUrl": "https://github.com/vmgarciahurtado/cw-method-rdd"
   }
 ]
