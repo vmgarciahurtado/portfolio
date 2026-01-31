@@ -284,23 +284,6 @@ export function BookshelfSection() {
             </motion.a>
           ))}
         </motion.div>
-
-        {/* Decorative dots like in Joan's page */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          viewport={{ once: true }}
-          className="flex justify-center gap-2 mt-16"
-        >
-          {[...Array(5)].map((_, i) => (
-            <div
-              key={i}
-              className="w-2 h-2 rounded-full"
-              style={{ backgroundColor: 'var(--text-secondary)', opacity: 0.5 }}
-            />
-          ))}
-        </motion.div>
       </div>
     </section>
   );
