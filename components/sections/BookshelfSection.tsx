@@ -19,10 +19,10 @@ export function BookshelfSection() {
   const books: Book[] = [
     {
       id: 1,
-      title: 'Clean Code',
-      author: 'Robert C. Martin',
-      coverImage: 'https://m.media-amazon.com/images/I/51E2055ZGUL._SY445_SX342_.jpg',
-      amazonUrl: 'https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882'
+      title: 'Atomic Habits',
+      author: 'James Clear',
+      coverImage: 'https://buybookbook.com/cdn/shop/files/9780735211292_800x.webp?v=1761041405',
+      amazonUrl: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_3?adgrpid=99604171665&dib=eyJ2IjoiMSJ9.wyVInfqX21vnN5PcxoCBhEgPLp8dOzGW-vZgJMm0dlGRJr_KUYIbJBwSlDwztSCQ2i9jREECCG71Zehu-wneDbpokK_ES6U0t81eschKoSSeQbgSQIlapO8BtRbY5qvbPL9zpulUMH6rNci7K8Uj1QdHfYO3T90zROy_HWysaz4iDSiYQwwq93rQGpk8aZaIvb19pIlDueTgPZfg2dDWU0qDfwWSeKrg2kUsBSI_rqE.YaMkEqHuvr6oeCyGnJs7zkqQRK1D4EDqE9dc-ZhwrpY&dib_tag=se&hvadid=602503261892&hvdev=c&hvlocphy=9210622&hvnetw=g&hvqmt=e&hvrand=713375546893209558&hvtargid=kwd-728711807665&hydadcr=26452_11703456&keywords=h%C3%A1bitos+at%C3%B3micos&mcid=039ece96b25d3228995b30980ca1d3cf&qid=1769863211&sr=8-3'
     },
     {
       id: 2,
@@ -33,31 +33,45 @@ export function BookshelfSection() {
     },
     {
       id: 3,
-      title: 'Design Patterns',
-      author: 'Gang of Four',
-      coverImage: 'https://m.media-amazon.com/images/I/51szD9HC9pL._SY445_SX342_.jpg',
-      amazonUrl: 'https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612'
+      title: 'The Richest Man in Babylon',
+      author: 'George S. Clason',
+      coverImage: 'https://m.media-amazon.com/images/I/71VZub0QnLL._SL1500_.jpg',
+      amazonUrl: 'https://www.amazon.com/Richest-Man-Babylon-Original-Classics/dp/1954839499/ref=sr_1_3_sspa?adgrpid=153013744690&dib=eyJ2IjoiMSJ9.Lm7H5LXdNamIwykMqAVSaT7chtKU73Hel6-gaH3xOTVvYp_uIkiwttRjSN0A1AlP4RcUEc0jzJl87VSFPk2iPzjaGqPoi-lgUdHRtXMHk9fJ68EouSclz186U-h_0_CqOFfA5USFjdzDm7eTzGQqBogrXN9wPMgkzrDUZSXw9XFsz4D6wOwp8374I6aA45Z3YvVOqrRoMXt2hFFsloxEE5F-tYE6iCIc8frXHT7Fchg.voVWVDHauEJgkKv-RLdkRmycOo-9pJLWz5pTr41s2Ts&dib_tag=se&hvadid=687788401366&hvdev=c&hvlocphy=9210622&hvnetw=g&hvqmt=e&hvrand=3914025801118426962&hvtargid=kwd-297036760789&hydadcr=13870_13560379&keywords=el+hombre+mas+rico+de+babilonia&mcid=00045d24c7993d239b49f191c5050c1e&qid=1769863401&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1'
     },
     {
       id: 4,
-      title: 'Refactoring',
-      author: 'Martin Fowler',
-      coverImage: 'https://m.media-amazon.com/images/I/51ttgxwzArL._SY445_SX342_.jpg',
-      amazonUrl: 'https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599'
+      title: 'The Odyssey',
+      author: 'Homero',
+      coverImage: 'https://m.media-amazon.com/images/I/61YUYPYlkzL._SL1360_.jpg',
+      amazonUrl: 'https://www.amazon.com/Odisea-Spanish-Homero/dp/1539427692/ref=sr_1_1?adgrpid=124471280783&dib=eyJ2IjoiMSJ9.BDAEpXOyuppoGScevhi6G-QyPcSrJdsuHsgdTVrZvdUtBTfw59-WgcM1pYqIilToNBx4ViDPbNSBEAIp80TXd0GYyMF3k5vpsSVn3s6Ix6R4BD-3vx3A2ZPdZzy6w0QT_AvGvl2awyHog9Zp3QXMPuI22guhHySkkESGyJXs53LY5EEK_P75BlaS1Tb32vpVed2yKS94c6qXX01-vW25CGuqrj-0EmXBBn8YJN0UE1epxX0nNjqFLZ9qrBIa3F2VV3B1UM3oleb1gEMLK1wF5t0hz9SR7UQ06t9m8sruFjQ.dGtvbvrUgYJJj0PFj7aiZ6iq6zsaWx_ZFTI6k4EUjFw&dib_tag=se&hvadid=602503174739&hvdev=c&hvlocphy=9210622&hvnetw=g&hvqmt=e&hvrand=5671181789688490357&hvtargid=kwd-300118210680&hydadcr=23019_13539056&keywords=la+odisea&mcid=9d316455922b3f6c8e7e0d08b99687d4&qid=1769863673&sr=8-1'
     },
     {
       id: 5,
-      title: 'JavaScript: The Good Parts',
-      author: 'Douglas Crockford',
-      coverImage: 'https://m.media-amazon.com/images/I/5181yVznHrL._SY445_SX342_.jpg',
-      amazonUrl: 'https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742'
+      title: 'The Secret Language of Numbers',
+      author: 'Francis S. Collins',
+      coverImage: 'https://m.media-amazon.com/images/I/61WH0odjATL._SL1483_.jpg',
+      amazonUrl: 'https://www.amazon.com/-/es/El-lenguaje-secreto-los-n%C3%BAmeros/dp/8482985876'
     },
     {
       id: 6,
-      title: 'You Don\'t Know JS',
-      author: 'Kyle Simpson',
-      coverImage: 'https://m.media-amazon.com/images/I/41T5H8u7fUL._SY445_SX342_.jpg',
-      amazonUrl: 'https://www.amazon.com/You-Dont-Know-JS-Yet/dp/B084BNMN7T'
+      title: 'The Way We Were Then',
+      author: 'Ralph E. Braden',
+      coverImage: 'https://pictures.abebooks.com/inventory/30532490906.jpg',
+      amazonUrl: 'https://www.abebooks.com/Way-Book-1-Ralph-E-Braden/30532490906/bd'
+    },
+    {
+      id: 7,
+      title: 'Vendedores de Perros',
+      author: 'Blair Singer',
+      coverImage: 'https://http2.mlstatic.com/D_NQ_NP_2X_814911-MCO89002293070_082025-F.webp',
+      amazonUrl: 'https://www.mercadolibre.com.co/vendedores-perros--nuevo-y-original-/up/MCOU3337841217#polycard_client=search-desktop&search_layout=grid&position=1&type=product&tracking_id=f1f21352-8df3-4101-99b8-75e6172074aa&wid=MCO2985355002&sid=search'
+    },
+    {
+      id: 8,
+      title: 'El Arte de la Guerra',
+      author: 'Sun Tzu',
+      coverImage: 'https://m.media-amazon.com/images/I/71U-+Ba1QQL._SL1499_.jpg',
+      amazonUrl: 'https://www.amazon.com/Arte-Guerra-Sun-Tzu-Espa%C3%B1ol/dp/B0DWWM714X/ref=sr_1_5?adgrpid=147566827113&dib=eyJ2IjoiMSJ9.1m0TrXyo9J3b7wnUIkkAIE_q9WPwswkrzhAIuTgFh-PLCwN2DbmHWy5pM3u0QD0PI2yXcD7hL7lKEjrC6oLRknOrRKXjXIkwHxZ1GCTVj8bgDsEJkZvMdwbRc62V3eKU3mqSngaJfjzJXdV_jO-lcC4jMOEN6LAJDtDQu7aKyeMunhcI6jLYn8-Yb8JbY4pPiDLDRtMU_bzxqGdaXcgRbx_lTIZrEeIOi24vPKcDXUY.Y_LbiJQ-GeYu5u6hesF3O1btfkfoW7QF5f5eY8gz5m0&dib_tag=se&hvadid=673262916127&hvdev=c&hvlocphy=9210622&hvnetw=g&hvqmt=e&hvrand=14921856549229695256&hvtargid=kwd-342957785&hydadcr=20487_13497022&keywords=el+arte+de+la+guerra&mcid=44aeb41cf53230aba5c78ec98f670c13&qid=1769864385&sr=8-5'
     },
   ];
 
@@ -83,8 +97,8 @@ export function BookshelfSection() {
   };
 
   return (
-    <section 
-      id="bookshelf" 
+    <section
+      id="bookshelf"
       className="min-h-screen py-20 px-6"
       style={{ backgroundColor: 'var(--surface)' }}
     >
@@ -96,13 +110,13 @@ export function BookshelfSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 
+          <h2
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: 'var(--foreground)' }}
           >
             {t('title')}
           </h2>
-          <p 
+          <p
             className="text-lg md:text-xl max-w-2xl mx-auto"
             style={{ color: 'var(--text-secondary)' }}
           >
@@ -196,7 +210,7 @@ export function BookshelfSection() {
                       />
                     ))}
                   </div>
-                  
+
                   {/* Page shadow effect */}
                   <div
                     className="absolute inset-0 bg-gradient-to-r from-black/5 via-transparent to-transparent pointer-events-none"
@@ -213,7 +227,7 @@ export function BookshelfSection() {
                     rotateY: hoveredBook === book.id ? 0 : -35,
                     translateX: hoveredBook === book.id ? 0 : -15,
                     translateZ: 16,
-                    boxShadow: hoveredBook === book.id 
+                    boxShadow: hoveredBook === book.id
                       ? '0 5px 20px rgba(0,0,0,0.2)'
                       : '0 25px 50px rgba(0,0,0,0.4), -5px 0 15px rgba(0,0,0,0.3)',
                   }}
@@ -229,7 +243,7 @@ export function BookshelfSection() {
                     className="absolute inset-0 w-full h-full object-cover"
                     loading="lazy"
                   />
-                  
+
                   {/* Inner shadow on the left edge */}
                   <motion.div
                     className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-black/40 to-transparent pointer-events-none"
@@ -260,7 +274,7 @@ export function BookshelfSection() {
                 }}
                 transition={{ duration: 0.3 }}
               >
-                <span 
+                <span
                   className="text-xs font-medium"
                   style={{ color: 'var(--text-secondary)' }}
                 >
