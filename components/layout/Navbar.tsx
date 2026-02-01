@@ -37,9 +37,8 @@ export function Navbar() {
 
   return (
     <motion.nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'shadow-apple' : ''
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'shadow-apple' : ''
+        }`}
       style={{
         backdropFilter: isScrolled ? 'blur(20px)' : 'none',
         backgroundColor: isScrolled ? 'var(--nav-bg)' : 'transparent',
@@ -75,7 +74,7 @@ export function Navbar() {
                 whileHover={{ y: -2 }}
                 whileTap={{ y: 0 }}
               >
-                {t(item.id as any)}
+                {t(item.id)}
               </motion.a>
             ))}
           </div>

@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
@@ -8,7 +9,16 @@ import { BlogSection } from '@/components/sections/BlogSection';
 import { BookshelfSection } from '@/components/sections/BookshelfSection';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 
-export default function Home() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function Home({ params }: Props) {
+  const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   return (
     <>
       <Navbar />
