@@ -15,9 +15,11 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy un Desarrollador Mobile con más de 6 años de experiencia construyendo aplicaciones de alto rendimiento utilizando Flutter, Kotlin y Swift. Me especializo en crear soluciones escalables y centradas en el usuario, siguiendo las mejores prácticas de desarrollo.",
-    "paragraph2": "Tengo una trayectoria comprobada en liderazgo de equipos e implementación de prácticas DevSecOps para entregar software de calidad. He liderado el desarrollo de más de 4 aplicaciones multiplataforma (Android, iOS, Web) y creado herramientas innovadoras como plataformas Server-Driven UI y librerías para desarrollo guiado por IA.",
-    "paragraph3": "Soy creador de la plataforma Server-Driven UI basada en STAC para widgets dinámicos y de la librería NPM cw-method-rdd (Rules Driven Development), un método que establece lineamientos de desarrollo incluyendo arquitectura limpia, principios SOLID, estrategias de testing y buenas prácticas para el desarrollo guiado por IA.",
+    "paragraph1": "Soy desarrollador mobile y atleta de alto rendimiento — una combinación que define mi forma de trabajar.",
+    "paragraph2": "Como bicampeón nacional de salto con pértiga, aprendí que los grandes logros requieren disciplina constante, preparación meticulosa y la capacidad de mantener la calma bajo presión. Cada salto es el resultado de miles de repeticiones, ajustes milimétricos y la confianza de saber que el proceso funciona. Esa misma mentalidad la aplico al código.",
+    "paragraph3": "Con más de 6 años de experiencia construyendo aplicaciones móviles con Flutter, Kotlin y Swift, me especializo en crear soluciones que no solo funcionan, sino que escalan y perduran. He liderado equipos, implementado prácticas DevSecOps y desarrollado más de 4 aplicaciones multiplataforma que hoy usan miles de personas.",
+    "paragraph4": "También me apasiona crear herramientas que multipliquen el impacto: desde plataformas Server-Driven UI hasta librerías para desarrollo asistido por IA.",
+    "paragraph5": "La pértiga me enseñó a volar. El código me permite construir.",
     "cta": "Ver mi trabajo",
     "downloadCV": "Descargar CV"
   },

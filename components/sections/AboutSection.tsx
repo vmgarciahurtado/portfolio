@@ -175,6 +175,8 @@ export function AboutSection() {
               <p>{t('paragraph1')}</p>
               <p>{t('paragraph2')}</p>
               <p>{t('paragraph3')}</p>
+              <p>{t('paragraph4')}</p>
+              <p className="font-semibold italic" style={{ color: 'var(--foreground)' }}>{t('paragraph5')}</p>
             </motion.div>
 
 

@@ -15,9 +15,11 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "I'm a Mobile Developer with over 6 years of experience building high-performance applications using Flutter, Kotlin, and Swift. I specialize in creating scalable, user-centered solutions, following best development practices.",
-    "paragraph2": "I have a proven track record in team leadership and implementing DevSecOps practices to deliver quality software. I've led the development of 4+ cross-platform applications (Android, iOS, Web) and created innovative tools such as Server-Driven UI platforms and libraries for AI-driven development.",
-    "paragraph3": "I'm the creator of the STAC-based Server-Driven UI platform for dynamic widgets and the NPM library cw-method-rdd (Rules Driven Development), a method that establishes development guidelines including clean architecture, SOLID principles, testing strategies, and best practices for AI-driven development.",
+    "paragraph1": "I'm a mobile developer and high-performance athlete — a combination that defines how I work.",
+    "paragraph2": "As a two-time national pole vault champion, I learned that great achievements require constant discipline, meticulous preparation, and the ability to stay calm under pressure. Each jump is the result of thousands of repetitions, millimetric adjustments, and the confidence that the process works. I apply that same mindset to code.",
+    "paragraph3": "With over 6 years of experience building mobile applications with Flutter, Kotlin, and Swift, I specialize in creating solutions that not only work but scale and endure. I've led teams, implemented DevSecOps practices, and developed 4+ cross-platform applications now used by thousands of people.",
+    "paragraph4": "I'm also passionate about building tools that multiply impact: from Server-Driven UI platforms to AI-assisted development libraries.",
+    "paragraph5": "Pole vault taught me to fly. Code allows me to build.",
     "cta": "View my work",
     "downloadCV": "Download CV"
   },
