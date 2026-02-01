@@ -3,75 +3,92 @@
     "id": "1",
     "type": "work",
     "title": "Ingeniero de Desarrollo",
+    "titleEn": "Development Engineer",
     "organization": "Celuweb",
     "date": "2020 - Presente",
+    "dateEn": "2020 - Present",
     "description": "Desarrollo de aplicaciones móviles de alto rendimiento utilizando Flutter, Kotlin y Swift. Liderazgo de equipos e implementación de prácticas DevSecOps. Creación de plataformas Server-Driven UI y herramientas para desarrollo guiado por IA.",
+    "descriptionEn": "Development of high-performance mobile applications using Flutter, Kotlin, and Swift. Team leadership and implementation of DevSecOps practices. Creation of Server-Driven UI platforms and tools for AI-driven development.",
     "icon": "briefcase"
   },
   {
     "id": "2",
     "type": "education",
     "title": "Ingeniería de Sistemas",
+    "titleEn": "Systems Engineering",
     "organization": "Universidad UNAD",
     "location": "Dosquebradas, Risaralda",
     "date": "2020 - 2024",
     "description": "Formación profesional en ingeniería de sistemas con enfoque en desarrollo de software, arquitectura de sistemas y tecnologías de la información.",
+    "descriptionEn": "Professional training in systems engineering with a focus on software development, systems architecture, and information technology.",
     "icon": "graduation"
   },
   {
     "id": "3",
     "type": "education",
     "title": "Certificación LPI-E",
+    "titleEn": "LPI-E Certification",
     "organization": "Linux Professional Institute",
     "location": "Ontario, Canada",
     "date": "2023",
     "description": "Certificación profesional en Linux que valida conocimientos en administración de sistemas Linux y herramientas de línea de comandos.",
+    "descriptionEn": "Professional Linux certification validating knowledge in Linux system administration and command-line tools.",
     "icon": "graduation"
   },
   {
     "id": "4",
     "type": "education",
     "title": "Certificación NDG-Linux",
+    "titleEn": "NDG-Linux Certification",
     "organization": "Cisco Network Academy",
     "location": "San Jose, California",
     "date": "2023",
     "description": "Certificación en fundamentos de Linux a través de Cisco Networking Academy, cubriendo administración del sistema y conceptos de redes.",
+    "descriptionEn": "Linux fundamentals certification through Cisco Networking Academy, covering system administration and networking concepts.",
     "icon": "graduation"
   },
   {
     "id": "5",
     "type": "work",
     "title": "Desarrollador Móvil",
+    "titleEn": "Mobile Developer",
     "organization": "Sumset",
     "date": "2018",
     "description": "Desarrollo de aplicaciones móviles, adquiriendo experiencia en tecnologías de desarrollo móvil y metodologías ágiles.",
+    "descriptionEn": "Mobile application development, gaining experience in mobile development technologies and agile methodologies.",
     "icon": "briefcase"
   },
   {
     "id": "6",
     "type": "work",
     "title": "Desarrollador",
+    "titleEn": "Developer",
     "organization": "SENA",
     "date": "2018",
     "description": "Experiencia laboral en desarrollo de software aplicando los conocimientos adquiridos en la formación técnica.",
+    "descriptionEn": "Work experience in software development applying the knowledge acquired in technical training.",
     "icon": "briefcase"
   },
   {
     "id": "7",
     "type": "education",
     "title": "Análisis y Desarrollo de Sistemas de Información",
+    "titleEn": "Information Systems Analysis and Development",
     "organization": "SENA",
     "date": "2017",
     "description": "Formación tecnológica en análisis, diseño y desarrollo de sistemas de información, con énfasis en programación y bases de datos.",
+    "descriptionEn": "Technology training in analysis, design, and development of information systems, with emphasis on programming and databases.",
     "icon": "graduation"
   },
   {
     "id": "8",
     "type": "education",
     "title": "Técnico en Desarrollo de Software",
+    "titleEn": "Software Development Technician",
     "organization": "SENA",
     "date": "2015",
     "description": "Formación técnica en desarrollo de software, aprendiendo fundamentos de programación, lógica y desarrollo de aplicaciones.",
+    "descriptionEn": "Technical training in software development, learning programming fundamentals, logic, and application development.",
     "icon": "graduation"
   }
 ]

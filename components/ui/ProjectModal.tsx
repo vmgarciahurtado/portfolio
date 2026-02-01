@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { Project } from '@/types';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 interface ProjectModalProps {
@@ -13,6 +13,7 @@ interface ProjectModalProps {
 
 export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
   const t = useTranslations('work');
+  const locale = useLocale();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Prevent body scroll when modal is open
@@ -34,8 +35,12 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
 
   if (!project) return null;
 
-  const images = project.gallery && project.gallery.length > 0 
-    ? project.gallery 
+  // Get localized content
+  const title = locale === 'en' && project.titleEn ? project.titleEn : project.title;
+  const fullDescription = locale === 'en' && project.fullDescriptionEn ? project.fullDescriptionEn : project.fullDescription;
+
+  const images = project.gallery && project.gallery.length > 0
+    ? project.gallery
     : [project.coverImage];
 
   const nextImage = () => {
@@ -95,7 +100,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                 <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                   <img
                     src={images[currentImageIndex]}
-                    alt={`${project.title} - Image ${currentImageIndex + 1}`}
+                    alt={`${title} - Image ${currentImageIndex + 1}`}
                     className="w-full h-full object-cover"
                   />
 
@@ -129,8 +134,8 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                             onClick={() => setCurrentImageIndex(index)}
                             className="w-2 h-2 rounded-full transition-all duration-300"
                             style={{
-                              backgroundColor: index === currentImageIndex 
-                                ? 'white' 
+                              backgroundColor: index === currentImageIndex
+                                ? 'white'
                                 : 'rgba(255, 255, 255, 0.5)',
                             }}
                           />
@@ -146,13 +151,13 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                     className="text-2xl md:text-3xl font-bold"
                     style={{ color: 'var(--foreground)' }}
                   >
-                    {project.title}
+                    {title}
                   </h2>
                   <span
                     className="px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap"
                     style={{
-                      backgroundColor: project.isPublic 
-                        ? 'rgba(34, 197, 94, 0.1)' 
+                      backgroundColor: project.isPublic
+                        ? 'rgba(34, 197, 94, 0.1)'
                         : 'rgba(239, 68, 68, 0.1)',
                       color: project.isPublic ? '#22c55e' : '#ef4444',
                       border: `1px solid ${project.isPublic ? 'rgba(34, 197, 94, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`,
@@ -167,7 +172,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                   className="text-base md:text-lg leading-relaxed"
                   style={{ color: 'var(--text-secondary)' }}
                 >
-                  {project.fullDescription}
+                  {fullDescription}
                 </p>
 
                 {/* Technologies */}

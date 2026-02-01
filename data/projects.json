@@ -2,8 +2,11 @@
   {
     "id": "sifc",
     "title": "SIFC - Sistema Integrado de Figuras Comerciales",
+    "titleEn": "SIFC - Integrated Commercial Figures System",
     "shortDescription": "Transición de múltiples aplicaciones nativas a una solución Flutter unificada",
+    "shortDescriptionEn": "Transition from multiple native applications to a unified Flutter solution",
     "fullDescription": "SIFC (Sistema Integrado de Figuras Comerciales) representa una transformación tecnológica importante. El proyecto consistió en la migración y consolidación de varias aplicaciones nativas independientes hacia una única aplicación Flutter. Las aplicaciones originales incluían: 'Fuerza de Ventas' para gestión comercial, 'Catálogo' para visualización de productos, 'Grandes Cadenas' para gestión de retail, 'VIC - Vista Integral del Cliente' para análisis de clientes, y 'Entregadores' para logística de entrega. Esta unificación permitió mejorar la experiencia de usuario, reducir costos de mantenimiento y acelerar el tiempo de desarrollo de nuevas funcionalidades.",
+    "fullDescriptionEn": "SIFC (Integrated Commercial Figures System) represents a major technological transformation. The project involved migrating and consolidating several independent native applications into a single Flutter application. The original applications included: 'Sales Force' for commercial management, 'Catalog' for product visualization, 'Large Chains' for retail management, 'VIC - Comprehensive Customer View' for customer analytics, and 'Delivery Drivers' for delivery logistics. This unification improved user experience, reduced maintenance costs, and accelerated the development time for new features.",
     "technologies": [
       "Flutter",
       "SQLite",
@@ -24,8 +27,11 @@
   {
     "id": "merkato",
     "title": "Merkato",
+    "titleEn": "Merkato",
     "shortDescription": "App móvil para comparar precios y optimizar listas de compras en Colombia",
+    "shortDescriptionEn": "Mobile app to compare prices and optimize shopping lists in Colombia",
     "fullDescription": "Merkato es una aplicación móvil (iOS/Android) desarrollada con Flutter que permite comparar precios de productos entre múltiples tiendas físicas en Colombia y crear listas de compras optimizadas para maximizar el ahorro. El propósito principal es resolver la fragmentación de información de precios: los consumidores gastan 15-25% más en mercado por no poder comparar precios entre tiendas. Merkato centraliza esta información mediante una API y la presenta de forma clara, permitiendo a los usuarios tomar decisiones informadas y ahorrar significativamente en sus compras del hogar.",
+    "fullDescriptionEn": "Merkato is a mobile application (iOS/Android) built with Flutter that allows comparing product prices across multiple physical stores in Colombia and creating optimized shopping lists to maximize savings. The main purpose is to solve price information fragmentation: consumers spend 15-25% more on groceries by not being able to compare prices between stores. Merkato centralizes this information through an API and presents it clearly, allowing users to make informed decisions and save significantly on household purchases.",
     "technologies": [
       "Flutter",
       "Riverpod",
@@ -41,8 +47,11 @@
   {
     "id": "b2b",
     "title": "B2B Commerce Platform",
+    "titleEn": "B2B Commerce Platform",
     "shortDescription": "Plataforma B2B móvil y web para gestión de pedidos empresariales",
+    "shortDescriptionEn": "B2B mobile and web platform for enterprise order management",
     "fullDescription": "B2B Commerce Platform es una aplicación multiplataforma (móvil y web) desarrollada con Flutter que permite a clientes empresariales nacionales e internacionales gestionar sus operaciones comerciales de manera integral. La plataforma centraliza la gestión de pedidos y comunicación con proveedores en un solo lugar. Diseñada para empresas que operan en múltiples mercados, ofrece una experiencia unificada que simplifica las transacciones comerciales, reduce tiempos de procesamiento y mejora la eficiencia operativa de los equipos de compras.",
+    "fullDescriptionEn": "B2B Commerce Platform is a cross-platform application (mobile and web) developed with Flutter that enables domestic and international enterprise clients to manage their commercial operations comprehensively. The platform centralizes order management and supplier communication in one place. Designed for companies operating in multiple markets, it offers a unified experience that simplifies commercial transactions, reduces processing times, and improves operational efficiency for purchasing teams.",
     "technologies": [
       "Flutter",
       "Keycloak",
@@ -59,8 +68,11 @@
   {
     "id": "dynamic-components",
     "title": "Dynamic Components - Server-Driven UI Platform",
+    "titleEn": "Dynamic Components - Server-Driven UI Platform",
     "shortDescription": "Plataforma innovadora de Server-Driven UI basada en STAC para renderizado dinámico de widgets",
+    "shortDescriptionEn": "Innovative Server-Driven UI platform based on STAC for dynamic widget rendering",
     "fullDescription": "Dynamic Components es una plataforma revolucionaria de Server-Driven UI (SDUI) basada en STAC Framework que permite la creación y actualización de interfaces de usuario de forma dinámica sin necesidad de desplegar nuevas versiones de la aplicación. Esta solución permite a los equipos de producto y diseño modificar la interfaz de usuario, agregar nuevas funcionalidades y realizar pruebas A/B directamente desde el servidor. El sistema interpreta configuraciones JSON que definen la estructura, estilo y comportamiento de los widgets, permitiendo una flexibilidad sin precedentes en el desarrollo de aplicaciones móviles. Esto reduce significativamente el tiempo de desarrollo, elimina la dependencia de los ciclos de release de las tiendas de aplicaciones y permite iteraciones más rápidas basadas en feedback de usuarios.",
+    "fullDescriptionEn": "Dynamic Components is a revolutionary Server-Driven UI (SDUI) platform based on STAC Framework that enables dynamic creation and updating of user interfaces without deploying new app versions. This solution allows product and design teams to modify the user interface, add new features, and run A/B tests directly from the server. The system interprets JSON configurations that define widget structure, style, and behavior, enabling unprecedented flexibility in mobile app development. This significantly reduces development time, eliminates dependency on app store release cycles, and enables faster iterations based on user feedback.",
     "technologies": [
       "Flutter",
       "Dart",
@@ -83,8 +95,11 @@
   {
     "id": "rdd",
     "title": "RDD - Rules Driven Development",
+    "titleEn": "RDD - Rules Driven Development",
     "shortDescription": "Librería NPM que establece lineamientos de desarrollo guiado por IA para los equipos Front y Back",
+    "shortDescriptionEn": "NPM library that establishes AI-driven development guidelines for Frontend and Backend teams",
     "fullDescription": "cw-method-rdd (Rules Driven Development) es una librería que establece un conjunto completo de lineamientos y mejores prácticas para el desarrollo de aplicaciones. Este método integra arquitectura limpia (Clean Architecture), principios SOLID, estrategias de testing comprehensivas y buenas prácticas específicas para el desarrollo guiado por IA. RDD proporciona una estructura que ayuda a los equipos de desarrollo a mantener consistencia en el código, mejorar la mantenibilidad y escalabilidad de las aplicaciones, y aprovechar al máximo las capacidades de las herramientas de IA en el proceso de desarrollo. La librería incluye documentación detallada que guía a los desarrolladores en la adopción de prácticas que facilitan la colaboración en el desarrollo de software de la empresa.",
+    "fullDescriptionEn": "cw-method-rdd (Rules Driven Development) is a library that establishes a comprehensive set of guidelines and best practices for application development. This method integrates Clean Architecture, SOLID principles, comprehensive testing strategies, and specific best practices for AI-driven development. RDD provides a structure that helps development teams maintain code consistency, improve application maintainability and scalability, and maximize AI tool capabilities in the development process. The library includes detailed documentation that guides developers in adopting practices that facilitate collaboration in enterprise software development.",
     "technologies": [
       "TypeScript",
       "Node.js",

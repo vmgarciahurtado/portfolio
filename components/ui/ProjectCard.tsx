@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Project } from '@/types';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 interface ProjectCardProps {
   project: Project;
@@ -11,6 +11,11 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project, onClick }: ProjectCardProps) {
   const t = useTranslations('work');
+  const locale = useLocale();
+
+  // Get localized content
+  const title = locale === 'en' && project.titleEn ? project.titleEn : project.title;
+  const shortDescription = locale === 'en' && project.shortDescriptionEn ? project.shortDescriptionEn : project.shortDescription;
 
   return (
     <motion.div
@@ -32,10 +37,10 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
         <div className="relative h-64 overflow-hidden">
           <img
             src={project.coverImage}
-            alt={project.title}
+            alt={title}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          
+
           {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
@@ -44,8 +49,8 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
             <span
               className="px-3 py-1 rounded-full text-xs font-medium backdrop-blur-md"
               style={{
-                backgroundColor: project.isPublic 
-                  ? 'rgba(34, 197, 94, 0.2)' 
+                backgroundColor: project.isPublic
+                  ? 'rgba(34, 197, 94, 0.2)'
                   : 'rgba(239, 68, 68, 0.2)',
                 color: project.isPublic ? '#22c55e' : '#ef4444',
                 border: `1px solid ${project.isPublic ? 'rgba(34, 197, 94, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`,
@@ -75,14 +80,14 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
             className="text-xl md:text-2xl font-bold line-clamp-1"
             style={{ color: 'var(--foreground)' }}
           >
-            {project.title}
+            {title}
           </h3>
 
           <p
             className="text-sm md:text-base line-clamp-2"
             style={{ color: 'var(--text-secondary)' }}
           >
-            {project.shortDescription}
+            {shortDescription}
           </p>
 
           {/* Technologies */}

@@ -1,19 +1,20 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useState } from 'react';
 import { TimelineItem } from '@/types';
 import timelineData from '@/data/timeline.json';
 
 export default function TimelineSection() {
   const t = useTranslations('timeline');
+  const locale = useLocale();
   const items = timelineData as TimelineItem[];
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   return (
-    <section 
-      id="timeline" 
+    <section
+      id="timeline"
       className="py-20 px-6"
       style={{ backgroundColor: 'var(--surface)' }}
     >
@@ -55,20 +56,25 @@ export default function TimelineSection() {
               const currentColors = colors[item.type];
               const isEven = index % 2 === 0;
 
+              // Get localized content
+              const title = locale === 'en' && item.titleEn ? item.titleEn : item.title;
+              const description = locale === 'en' && item.descriptionEn ? item.descriptionEn : item.description;
+              const date = locale === 'en' && item.dateEn ? item.dateEn : item.date;
+
               const getIcon = (iconType: string) => {
                 switch (iconType) {
                   case 'graduation':
                     return (
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
                       </svg>
                     );
                   case 'briefcase':
                     return (
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
-                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                       </svg>
                     );
                   default:
@@ -90,9 +96,8 @@ export default function TimelineSection() {
                     {/* Left/Right Card */}
                     <div className="md:w-[calc(50%-60px)]">
                       <motion.div
-                        className={`rounded-2xl border cursor-pointer transition-all duration-300 ${
-                          expandedId === item.id ? 'p-6' : 'p-4'
-                        }`}
+                        className={`rounded-2xl border cursor-pointer transition-all duration-300 ${expandedId === item.id ? 'p-6' : 'p-4'
+                          }`}
                         style={{
                           backgroundColor: 'var(--background)',
                           borderColor: expandedId === item.id ? currentColors.bg : 'var(--border)',
@@ -108,12 +113,12 @@ export default function TimelineSection() {
                           className="inline-block px-2 py-0.5 rounded-full text-xs font-bold mb-2"
                           style={{ backgroundColor: currentColors.bg, color: 'white' }}
                         >
-                          {item.type === 'work' ? 'Work' : 'Education'}
+                          {item.type === 'work' ? t('work') : t('education')}
                         </div>
 
                         {/* Title */}
                         <h3 className={`font-bold mb-1 truncate`} style={{ color: 'var(--foreground)' }}>
-                          {item.title}
+                          {title}
                         </h3>
 
                         {/* Organization */}
@@ -123,7 +128,7 @@ export default function TimelineSection() {
 
                         {/* Date */}
                         <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                          {item.date}
+                          {date}
                         </p>
 
                         {/* Expandable Description */}
@@ -138,7 +143,7 @@ export default function TimelineSection() {
                               style={{ borderColor: 'var(--border)' }}
                             >
                               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                                {item.description}
+                                {description}
                               </p>
                             </motion.div>
                           )}
