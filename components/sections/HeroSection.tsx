@@ -56,7 +56,7 @@ export function HeroSection() {
         }}
         className="absolute inset-0 w-full h-full bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900"
       >
-        <div 
+        <div
           className="absolute inset-0 z-10"
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}
         />
@@ -73,12 +73,6 @@ export function HeroSection() {
           animate="visible"
           className="space-y-6 max-w-4xl"
         >
-          <motion.div variants={itemVariants}>
-            <p className="text-lg md:text-xl font-light tracking-wide text-white/90">
-              {t('greeting')}
-            </p>
-          </motion.div>
-
           <motion.h1
             variants={itemVariants}
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight"
