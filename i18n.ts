@@ -5,12 +5,12 @@ export type Locale = (typeof locales)[number];
 
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
-  
+
   // Si no hay locale, usa el default
   if (!locale || !locales.includes(locale as Locale)) {
-    locale = 'es';
+    locale = 'en';
   }
-  
+
   return {
     locale,
     messages: (await import(`./messages/${locale}.json`)).default
